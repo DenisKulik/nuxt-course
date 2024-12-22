@@ -1,4 +1,4 @@
-import { resolve } from 'path';
+import { resolve } from 'path'
 
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/eslint'],
 
   alias: {
-    '@': resolve(__dirname, '/'),
+    '@': resolve(__dirname, '/')
   },
 
   css: ['~/assets/main.scss'],
@@ -14,7 +14,7 @@ export default defineNuxtConfig({
   postcss: {
     plugins: {
       tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
-});
+      autoprefixer: {}
+    }
+  }
+})
