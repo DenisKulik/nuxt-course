@@ -1,10 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
-    <Alert />
-    <Profile />
-  </div>
+  <div>Header</div>
 </template>
 
 <style scoped></style>

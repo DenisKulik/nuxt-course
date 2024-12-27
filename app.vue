@@ -1,5 +1,7 @@
+<script setup lang="ts"></script>
+
 <template>
-  <div>
+  <div class="min-h-screen bg-slate-500">
     <NuxtLayout>
       <header>
         <ul>
@@ -13,4 +15,3 @@
     </NuxtLayout>
   </div>
 </template>
-<script setup lang="ts"></script>
