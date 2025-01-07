@@ -1,6 +1,9 @@
 <script setup lang="ts">
 const { sayHi } = useUtils()
 sayHi()
+
+const { $hello } = useNuxtApp()
+$hello('user')
 </script>
 
 <template>
