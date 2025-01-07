@@ -1,7 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+definePageMeta({
+  layout: 'custom'
+})
+</script>
 
 <template>
   <div>events page</div>
 </template>
-
-<style scoped></style>
