@@ -4,6 +4,9 @@ sayHi()
 
 const { $hello } = useNuxtApp()
 $hello('user')
+
+const counter = useCounterStore()
+console.log('counter', counter)
 </script>
 
 <template>
@@ -13,5 +16,6 @@ $hello('user')
     <IconsBell />
     <Alert />
     <Profile />
+    <Counter />
   </div>
 </template>
