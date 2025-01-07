@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useCounterStore } from '~/stores/myStore.ts'
+
 const { sayHi } = useUtils()
 sayHi()
 
