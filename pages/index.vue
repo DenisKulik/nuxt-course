@@ -10,8 +10,8 @@ $hello('user')
 const counter = useCounterStore()
 console.log('counter', counter)
 
-const { data } = await useFetch('/api/hello')
-console.log('data', data.value)
+const { data: products, status } = await useLazyFetch('/api/products')
+console.log('data', toRaw(products.value))
 </script>
 
 <template>
@@ -22,5 +22,6 @@ console.log('data', data.value)
     <Alert />
     <Profile />
     <Counter />
+    {{ status === 'pending' ? 'loading' : products }}
   </div>
 </template>

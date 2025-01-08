@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Smartphone A",
+    "image_url": "https://example.com/smartphone-a.jpg",
+    "price": 499.99
+  },
+  {
+    "name": "Laptop B",
+    "image_url": "https://example.com/laptop-b.jpg",
+    "price": 899.99
+  },
+  {
+    "name": "Wireless Headphones C",
+    "image_url": "https://example.com/headphones-c.jpg",
+    "price": 129.99
+  },
+  {
+    "name": "Smartwatch D",
+    "image_url": "https://example.com/smartwatch-d.jpg",
+    "price": 199.99
+  },
+  {
+    "name": "Bluetooth Speaker E",
+    "image_url": "https://example.com/speaker-e.jpg",
+    "price": 59.99
+  }
+]
