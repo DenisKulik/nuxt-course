@@ -5,12 +5,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/eslint', '@nuxt/content', '@pinia/nuxt'],
   nitro: { preset: 'vercel' },
+  ssr: true,
   alias: {
     '@': resolve(__dirname, '/')
   },
-
   css: ['~/assets/main.scss'],
-
   postcss: {
     plugins: {
       tailwindcss: {},
