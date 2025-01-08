@@ -9,6 +9,9 @@ $hello('user')
 
 const counter = useCounterStore()
 console.log('counter', counter)
+
+const { data } = await useFetch('/api/hello')
+console.log('data', data.value)
 </script>
 
 <template>
