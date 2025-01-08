@@ -1,6 +1,11 @@
 <script setup lang="ts">
 import { useCounterStore } from '~/stores/myStore.ts'
 
+useHead({
+  title: 'Nuxt App',
+  meta: [{ name: 'description', content: 'Nuxt 3 App' }]
+})
+
 const { sayHi } = useUtils()
 sayHi()
 

@@ -5,5 +5,9 @@ definePageMeta({
 </script>
 
 <template>
+  <Head>
+    <Title>Events</Title>
+    <Meta name="description" content="Events" />
+  </Head>
   <div>events page</div>
 </template>
